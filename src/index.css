@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme{
+  --font-orbi: "Orbitron", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-mont: "Montserrat", sans-serif;
+  --color-primaryB: #0F0F0F;
+  --color-grayText: #808080;
+  --color-grayBorder: #1F1F1F;
+  --color-secondaryB: #1A1A1A;
+}
+@layer base{
+  h1{
+    @apply font-mont 2xl:text-[48px] md:text-[38px] font-semibold;
+  }
+  p{
+    @apply font-poppins text-sm md:text-base 2xl:text-lg text-grayText;
+  }
+  button{
+    @apply cursor-pointer
+  }
+  body{
+    @apply bg-primaryB text-white ;
+  }
+  html{
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .fade-mask {
+    mask-image: linear-gradient(to bottom, black 10%, transparent 80%);
+    -webkit-mask-image: linear-gradient(to bottom, black 10%, transparent 80%);
+  }
+}
+@layer components {
+  .res-text{
+    @apply text-sm md:text-base 2xl:text-lg
+  }
+  .container-pad{
+    @apply 2xl:px-[162px] px-20
+  }
+  .header{
+    @apply flex justify-center flex-col items-center gap-5
+  }
+  .btn{
+    @apply text-sm md:text-base 2xl:text-lg px-4.5 py-2.5 rounded-full
+  }
+}
+
