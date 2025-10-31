@@ -50,8 +50,8 @@ export default function Projects() {
                     <div className="absolute inset-0 bg-grayBorder/40 backdrop-blur-sm fade-mask border-grayText/5 border"></div>
                     <div className="z-5 relative">
                         <div className="2xl:h-[400px] h-[300px] mb-[50px] relative">
-                            <img src={project.img} alt="whatsdotfun project" className=" w-full h-full rounded-md object-cover shrink-0"/>
-                            <a href={project.link} target='_blank' className="flex items-center gap-2 mt-4 absolute -bottom-5 bg-primaryB cursor-pointer px-5 py-2.5 rounded-full border-grayText/20 border left-1/2 -translate-x-1/2">
+                            <img src={project.img} alt="whatsdotfun project" className=" h-full w-full rounded-md object-cover  shrink-0"/>
+                            <a href={project.link} target='_blank' className="flex items-center gap-2 mt-4 absolute -bottom-5 bg-primaryB cursor-pointer px-3 py-2.5 md:px-5 rounded-full border-grayText/20 border left-1/2 -translate-x-1/2">
                                 <p className="text-white">View Project </p>
                                 <ArrowRight size={20}/>
                             </a>
