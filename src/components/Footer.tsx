@@ -4,15 +4,15 @@ import linkedin from '../assets/Footer/linkedin-2.svg';
 import twitter from '../assets/Footer/twitter-2.svg';
 export default function Footer() {
   return (
-  <footer id='footer' className="h-screen flex flex-col items-center justify-center relative">
-        <div className='absolute bg-cover bg-center -z-2 inset-0' style={{backgroundImage: `url(${footerBg})`}}></div>
+  <footer id='footer' className="h-fit md:h-screen pb-20 md:pb-0 flex flex-col items-center justify-center relative">
+        <div className='absolute bg-cover  bg-top -z-2 inset-0' style={{backgroundImage: `url(${footerBg})`}}></div>
         <div className='flex flex-col items-center gap-[50px]'>
-            <h1 className=" font-bold text-[34px] md:text-5xl 2xl:text-[58px] mb-6 leading-tight w-[90%] text-center">
+            <h1 className=" font-bold text-[34px] md:text-5xl 2xl:text-[58px] mb-6 leading-tight md:w-[90%] w-full text-center">
                 Let's bring your ideas to life and take them to the <span className="text-grayText">next level!</span>
             </h1>
             <button className='btn bg-white text-primaryB font-extrabold border border-grayBorder'>LET'S GET IN TOUCH</button>
         </div>
-        <div className='flex justify-between items-center mt-32 w-full'>
+        <div className='flex-col md:flex-row gap-6 flex justify-center md:justify-between items-center mt-22 md:mt-32 w-full'>
             <div>
                 <p className='text-white'>Copyright for <span className='font-orbi'>SYNKAIHQ</span> @2025</p>
             </div>

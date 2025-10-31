@@ -39,12 +39,12 @@ export default function Projects() {
     <section id='projects'>
         <header className="header">
             <h1>Our Projects</h1>
-            <p className="w-[70%] text-center">
+            <p className="md:w-[70%] w-full text-center">
                 Witness the brilliance of our previous projects. Our portfolio showcases the successful collaborations we've had with diverse clients across various industries. Let our work speak for itself.
             </p>
         </header>
 
-        <div className="grid md:grid-cols-2 gap-10 2xl:gap-20 pt-20 mt-10">
+        <div className="grid md:grid-cols-2 gap-10 2xl:gap-20 pt-10 md:mt-10 mt-1">
             {projects.map((project, index) => (
                 <div key={index} className="2xl:p-[50px] p-6 md:p-10 relative">   
                     <div className="absolute inset-0 bg-grayBorder/40 backdrop-blur-sm fade-mask border-grayText/5 border"></div>
