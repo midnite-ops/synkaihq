@@ -10,7 +10,7 @@ export default function Footer() {
             <h1 className=" font-bold text-[34px] md:text-5xl 2xl:text-[58px] mb-6 leading-tight md:w-[90%] w-full text-center">
                 Let's bring your ideas to life and take them to the <span className="text-grayText">next level!</span>
             </h1>
-            <button className='btn bg-white text-primaryB font-extrabold border border-grayBorder'>LET'S GET IN TOUCH</button>
+            <button className='btn bg-white text-primaryB font-extrabold border border-grayBorder' onClick={() => window.location.href = 'mailto:midnite048@gmail.com?subject=Inquiry to SynkaiHQ&body=Hello!'}>LET'S GET IN TOUCH</button>
         </div>
         <div className='flex-col md:flex-row gap-6 flex justify-center md:justify-between items-center mt-22 md:mt-32 w-full'>
             <div>

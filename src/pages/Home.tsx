@@ -48,8 +48,8 @@ export default function Home() {
                 <div>
                     <p className="text-white text-center md:text-start">Unlock Your Digital Potential today</p>
                     <div className="flex gap-4 mt-5 justify-center md:justify-start">
-                        <button className="res-text px-4.5 py-2.5  bg-white text-primaryB rounded-full">Get Started</button>
-                        <button className="res-text px-4.5 py-2.5  bg-secondaryB rounded-full btn text-white">Free Consultation</button>
+                        <button className="res-text px-4.5 py-2.5  bg-white text-primaryB rounded-full" onClick={() => window.location.href = 'mailto:midnite048@gmail.com?subject=Inquiry to SynkaiHQ&body=Hello!'}>Get Started</button>
+                        <button className="res-text px-4.5 py-2.5  bg-secondaryB rounded-full btn text-white" onClick={() => window.location.href = 'mailto:midnite048@gmail.com?subject=Inquiry to SynkaiHQ&body=Hello!'}>Free Consultation</button>
                     </div>
                 </div>
                 
