@@ -35,7 +35,7 @@ export default function Home() {
     <main className="container-pad flex flex-col 2xl:gap-[150px] md:gap-30 gap-30">
         <Navbar />
         <section id="home" className="text-white flex-col-reverse md:flex-row
-        justify-between h-fit md:h-screen gap-20 md:gap-0 flex py-15 md:py-0 items-center  mt-24 md:mt-0">
+        justify-between h-fit md:h-screen gap-20 md:gap-0 flex pt-15  md:py-0 items-center  mt-24 md:mt-0">
             <div className=" md:flex-1">
                 <div className="md:w-[90%] w-full mb-[60px]">
                     <h1 className=" font-bold text-[34px] md:text-5xl 2xl:text-[58px] mb-6 leading-tight text-center md:text-start">
@@ -68,7 +68,7 @@ export default function Home() {
             </div>
             <div className="border grid md:grid-cols-2 lg:grid-cols-3 gap-10 2xl:gap-20 py-20 px-10 mt-10">
                 <div className="flex flex-col items-center">
-                    <h3 className="text-5xl font-orbi mb-2">5+</h3>
+                    <h3 className="text-5xl font-orbi mb-2">4+</h3>
                     <p className="mb-4">Projects Completed</p>
                     <p className="text-center">
                         We’ve successfully delivered a range of projects — from sleek portfolio sites to full-scale digital platforms. Each solution is designed with precision, speed, and purpose to help our clients stand out in the digital space.
